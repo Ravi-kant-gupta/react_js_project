@@ -1,0 +1,11 @@
+.analytics-page{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.analytics-page h1{
+    text-decoration: underline;
+}

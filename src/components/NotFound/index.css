@@ -1,0 +1,12 @@
+.not-found-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 30px;
+    font-family: "Roboto";
+}

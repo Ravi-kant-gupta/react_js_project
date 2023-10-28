@@ -1,0 +1,93 @@
+.nav-bar{
+    background-color: #e9ecc6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+    height: 30px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #32a4a8;
+}
+.menu-bar{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  flex-start;
+    height: 30px;
+    padding: 20px;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    /* width: 100%; */
+
+    /* border: 1px solid #32a4a8; */
+}
+
+ .icon{
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 20px;
+ }
+ .icon-size{
+    width: 65px;
+    height: 65px;
+ }
+.tab-list{
+    list-style-type: none;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: -10px;
+    border: 1px solid #32a4a8;
+    width: 110px;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: blue;
+    box-shadow: 0px 0px 5px 5px #32a4a8;
+    
+}
+.header-tab{
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.selected-tab{
+    background-color: bisque ;
+    color: blue;
+}
+
+.tab-list li:hover{
+    background-color: bisque;
+    color: blue;
+}
+.logout{
+    cursor: pointer;
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

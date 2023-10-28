@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
-
-function App() {
+import Analytics from "./components/Analytics";
+import Data from "./components/Data";
+import Login from "./components/Login";
+import NotFound from "./components/NotFound";
+import LoginProtectedRoute from "./components/ProtectedRoute/authLogin.js";
+import ProtectedRoute from "./components/ProtectedRoute/index.js";
+const App=()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+    <LoginProtectedRoute exact path="/" component={Login}/>
+    <ProtectedRoute exact path="/analytics" component={Analytics}/>
+    <ProtectedRoute exact path="/data" component={Data}/>
+      <Route path="/notfound" component={NotFound}/>
+    </Switch>
   );
 }
 

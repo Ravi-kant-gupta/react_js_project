@@ -1,0 +1,20 @@
+.data-page{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-page h1{
+    text-decoration: underline;
+}
+.data-table{
+    width: 500px;
+    height: 300px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }

@@ -1,0 +1,217 @@
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    background-color: rgb(58, 0, 128);
+}
+
+.bg-container{
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container{
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* HEADER CSS */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:100%
+    
+}
+
+.header-left-content{
+    color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.header-left-content :hover{
+    color: purple;
+}
+
+.header-right-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: #ffffff;
+    list-style-type: none;
+    align-items: center;
+    font-size: 22px;
+}
+
+.header-right-content :hover{
+    color: purple;
+}
+
+.header-right-content li{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.purchase-head{
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    background-color: rgb(240, 8, 31);
+    width: 90px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.error-message{
+    color: red;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+/* BELOW HEADER CONTENT */
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.name-input{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-color: grey;
+    border-width: 1px;
+    padding-right: 10px;
+    padding-left: 20px;
+    height: 45px;
+    width: 250px;
+    outline: none;
+}
+.password-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:1px solid grey;
+    border-color: grey;
+    border-width: 1px;
+    padding-right: 10px;
+    padding-left: 20px;
+    height: 45px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.password-input input{
+    border: none;
+    outline: none;
+    width:230px;
+}
+.password-input input :focus{
+    border: none;
+}
+.description-content{
+    width: 50%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.input-field-container{
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+.input-field-container h1{
+    color: purple;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:  serif;
+}
+.input-field-container hr{
+    color: grey;
+    height: 1px;
+    max-width: 200px;
+    min-width: 120px;
+}
+.check-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.checkbox:checked:before{
+    background-color:green;
+    }
+.horizontal-line-container{
+    color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.horizontal-line-container span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.signin-link{
+    text-decoration: none;
+    color: rgb(47, 255, 120);
+}
+.signin-link:hover{
+    color: rgb(255, 47, 231);
+}
+.click-btn{
+    height: 45px;
+    width: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    border-color: transparent;
+}
+.click-btn:hover{
+    color: blueviolet;
+    background-color: aquamarine;
+    
+}
+.login-color{
+    background-color: blue;
+    
+}
+.sign-color{
+    background-color: rgb(138, 58, 237);
+    
+}
+.learn-more{
+    background-color: rgb(240, 8, 31);
+    width: 150px;
+}
